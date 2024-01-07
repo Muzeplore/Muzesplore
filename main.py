@@ -5,7 +5,7 @@ import tkinter as tk
 class general(tk.Frame):
     def __init__(self, parent):
         tk.Frame.__init__(self, parent)
-        title = tk.Label(self, text="Muzeplore Home", font=("Arial",50), height=10)
+        title = tk.Label(self, text="Muzeplore Home", font=("Arial",50), height=2)
         title.pack()
 
 # root window / packing
